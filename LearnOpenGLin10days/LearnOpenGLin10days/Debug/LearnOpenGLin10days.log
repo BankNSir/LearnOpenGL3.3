@@ -1,23 +1,23 @@
 ﻿  MyFirstOpenGL.cpp
 C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(28,22): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(236,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(269,51): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(270,55): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(277,51): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(278,55): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(285,51): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(286,55): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(293,51): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(294,55): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(307,47): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(308,51): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(393,21): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(397,21): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(434,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(435,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(438,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(439,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(440,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(441,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(448,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(238,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(271,51): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(272,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(279,51): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(280,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(287,51): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(288,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(295,51): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(296,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(309,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(310,51): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(411,21): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(415,21): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(452,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(453,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(456,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(457,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(458,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(459,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\LearnOpenGLin10days\MyFirstOpenGL.cpp(466,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   LearnOpenGLin10days.vcxproj -> C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\Debug\LearnOpenGLin10days.exe

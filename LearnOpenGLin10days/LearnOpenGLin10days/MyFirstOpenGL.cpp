@@ -81,7 +81,7 @@ int main()
 	
 	Shader ourShader("shader.vs", "shader.fs");
 	Shader lampShader("lampVertexShader.vs", "lampFragmentShader.fs");
-
+	Shader singleColorShader("shader.vs", "singleColorShader.fs");
 
 
 	// -----------------------------------------------------------------
@@ -226,7 +226,9 @@ int main()
 	glBindVertexArray(0);
 
 	glEnable(GL_DEPTH_TEST);
+	glEnable(GL_STENCIL_TEST);
 
+	
 	// WIREFRAME ************
 	// glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 	// main rendering loop
@@ -242,7 +244,7 @@ int main()
 
 		// render background
 		glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 
 		// intensity of texture
 		ourShader.use();
@@ -324,16 +326,37 @@ int main()
 		glBindVertexArray(cubeVAO);
 		for (int i = 0; i < 10; i++)
 		{
+			ourShader.use();
 			// M
 			modelMat = glm::mat4(1.0f);
 			modelMat = glm::translate(modelMat, cubePositions[i]);
 			float angle = 20.0f * i;
 			modelMat = glm::rotate(modelMat, glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
 			ourShader.setMat4("modelMat", modelMat);
+
+			// stencil
+			glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
+			glStencilFunc(GL_ALWAYS, 1, 0xFF);
+			glStencilMask(0xFF);
 			glDrawArrays(GL_TRIANGLES, 0, 36);
+			
+			glStencilFunc(GL_NOTEQUAL, 1, 0xFF);
+			glStencilMask(0x00);
+			glDisable(GL_DEPTH_TEST);
+			// scale up
+			modelMat = glm::scale(modelMat, glm::vec3(1.1f));
+			singleColorShader.use();
+			
+			singleColorShader.setMat4("modelMat", modelMat);
+			singleColorShader.setMat4("viewMat", viewMat);
+			singleColorShader.setMat4("projectMat", projectMat);
+			glDrawArrays(GL_TRIANGLES, 0, 36);
+			glStencilMask(0xFF);
+			glEnable(GL_DEPTH_TEST);
 		}
 
-
+		/*glDisable(GL_STENCIL_TEST);*/
+		glStencilFunc(GL_ALWAYS, 1, 0xFF);
 		// lampObject		
 		lampShader.use();
 
@@ -353,11 +376,6 @@ int main()
 
 		// *****render shape
 		// ---------------------------------------------------------------------------
-
-		
-
-		// ---------------------------------------------------------------------------
-
 
 		// swapping already finished backBuffer with frontBuffer to show to the screen
 		glfwSwapBuffers(window);   // swap colorBuffer computed in this iteration to current window and show the output to the screen

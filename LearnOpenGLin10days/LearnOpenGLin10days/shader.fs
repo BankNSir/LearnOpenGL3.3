@@ -133,16 +133,9 @@ vec3 CalcPointLight(PointLight light, vec3 normal, vec3 fragPos, vec3 viewDir)
 	diffuse *= attenuation;
 	specular *= attenuation;
 
-	//float theta = dot(lightDir, normalize(-light.direction));
-	//float epsilon = light.cutoff - light.outercutoff;
-	//float intensity = (theta - light.outercutoff)/ epsilon;
-	//diffuse *= intensity;
-	//specular *= intensity;
-
 	return vec3(ambient + diffuse + specular);
 }
 
-// ****
 vec3 CalcSpotLight(SpotLight light, vec3 normal, vec3 fragPos, vec3 viewDir)
 {
 	// ambient

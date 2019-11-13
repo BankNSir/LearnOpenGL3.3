@@ -137,7 +137,7 @@
     <None Include="lampVertexShader.vs" />
     <None Include="shader.fs" />
     <None Include="shader.vs" />
-    <None Include="vertexShaderSource" />
+    <None Include="singleColorShader.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />

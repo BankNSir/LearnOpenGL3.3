@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="GLSL Files">
+      <UniqueIdentifier>{c96962be-04b5-43dd-a66a-26bd2fa50714}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFirstOpenGL.cpp">
@@ -29,11 +32,21 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="vertexShaderSource" />
-    <None Include="shader.fs" />
-    <None Include="shader.vs" />
-    <None Include="lampVertexShader.vs" />
-    <None Include="lampFragmentShader.fs" />
+    <None Include="lampFragmentShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lampVertexShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="singleColorShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">

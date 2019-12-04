@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="GLSL Files">
+      <UniqueIdentifier>{c96962be-04b5-43dd-a66a-26bd2fa50714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="learnOpenGL">
+      <UniqueIdentifier>{a9e20a26-5331-48d1-b571-7492bb4c3348}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFirstOpenGL.cpp">
@@ -29,11 +35,63 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="vertexShaderSource" />
-    <None Include="shader.fs" />
-    <None Include="shader.vs" />
-    <None Include="lampVertexShader.vs" />
-    <None Include="lampFragmentShader.fs" />
+    <None Include="lampFragmentShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="lampVertexShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="singleColorShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="model_loading.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="model_loading.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="1.1.depth_testing.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="1.1.depth_testing.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="quadShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="skyboxShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="environmentaBox.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="environmentaBox.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="quadShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="skyboxShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapDepth.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapDepth.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapQuad.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapQuad.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -43,6 +101,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

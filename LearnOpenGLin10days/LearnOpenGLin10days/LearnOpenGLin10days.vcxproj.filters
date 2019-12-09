@@ -65,11 +65,45 @@
     <None Include="quadShader.vs">
       <Filter>GLSL Files</Filter>
     </None>
-    <None Include="quadShader.fs" />
     <None Include="skyboxShader.vs">
       <Filter>GLSL Files</Filter>
     </None>
-    <None Include="skyboxShader.fs" />
+    <None Include="environmentaBox.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="environmentaBox.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="quadShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="skyboxShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapDepth.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapDepth.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapQuad.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapQuad.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="testscene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="testscene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapScene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapScene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">

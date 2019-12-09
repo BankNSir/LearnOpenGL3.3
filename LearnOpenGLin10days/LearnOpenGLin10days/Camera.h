@@ -88,7 +88,7 @@ public:
 	{
 		xoffset *= MouseSensitivity;
 		yoffset *= MouseSensitivity;
-
+		
 		Yaw += xoffset;
 		Pitch += yoffset;
 

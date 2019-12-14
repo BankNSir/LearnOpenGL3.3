@@ -138,10 +138,18 @@
     <None Include="1.1.depth_testing.vs" />
     <None Include="environmentaBox.fs" />
     <None Include="environmentaBox.vs" />
+    <None Include="geometryShader.fs" />
+    <None Include="geometryShader.gs" />
+    <None Include="geometryShader.vs" />
     <None Include="lampFragmentShader.fs" />
     <None Include="lampVertexShader.vs" />
     <None Include="model_loading.fs" />
     <None Include="model_loading.vs" />
+    <None Include="pointLightShadowMap.fs" />
+    <None Include="pointLightShadowMap.gs" />
+    <None Include="pointLightShadowMap.vs" />
+    <None Include="pointLightShadowMapScene.fs" />
+    <None Include="pointLightShadowMapScene.vs" />
     <None Include="quadShader.fs" />
     <None Include="quadShader.vs" />
     <None Include="shader.fs" />
@@ -150,9 +158,13 @@
     <None Include="shadowmapDepth.vs" />
     <None Include="shadowmapQuad.fs" />
     <None Include="shadowmapQuad.vs" />
+    <None Include="shadowmapScene.fs" />
+    <None Include="shadowmapScene.vs" />
     <None Include="singleColorShader.fs" />
     <None Include="skyboxShader.fs" />
     <None Include="skyboxShader.vs" />
+    <None Include="testscene.fs" />
+    <None Include="testscene.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />

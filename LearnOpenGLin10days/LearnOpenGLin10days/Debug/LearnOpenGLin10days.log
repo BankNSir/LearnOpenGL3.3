@@ -1,13 +1,2 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LearnOpenGLin10days.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  MyFirstOpenGL.cpp
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\Mesh.h(53,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\Model.h(46,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\MyFirstOpenGL.cpp(364,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\MyFirstOpenGL.cpp(457,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\MyFirstOpenGL.cpp(458,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\MyFirstOpenGL.cpp(462,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\MyFirstOpenGL.cpp(463,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\MyFirstOpenGL.cpp(465,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\MyFirstOpenGL.cpp(466,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\LearnOpenGLin10days\MyFirstOpenGL.cpp(475,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  LearnOpenGLin10days.vcxproj -> C:\Users\DELL EMC\source\repos\LearnOpenGLin10days2\Debug\LearnOpenGLin10days2.exe
+  LearnOpenGLin10days.vcxproj -> C:\Users\DELL EMC\source\repos\LearnOpenGLin10days\Debug\LearnOpenGLin10days2.exe

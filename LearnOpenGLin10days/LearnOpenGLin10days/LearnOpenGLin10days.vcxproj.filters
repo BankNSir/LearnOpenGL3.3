@@ -92,6 +92,48 @@
     <None Include="shadowmapQuad.fs">
       <Filter>GLSL Files</Filter>
     </None>
+    <None Include="testscene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="testscene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapScene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapScene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.gs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMapScene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.gs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMapScene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="normalMappingInShadowMap.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="normalMappingInShadowMap.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">

@@ -19,6 +19,9 @@
     <Filter Include="learnOpenGL">
       <UniqueIdentifier>{a9e20a26-5331-48d1-b571-7492bb4c3348}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GLSL Files\bloom">
+      <UniqueIdentifier>{69814a79-48a6-4794-9c6a-3c97c0570fba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyFirstOpenGL.cpp">
@@ -92,6 +95,76 @@
     <None Include="shadowmapQuad.fs">
       <Filter>GLSL Files</Filter>
     </None>
+    <None Include="testscene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="testscene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapScene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapScene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.gs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMapScene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.gs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMapScene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="normalMappingInShadowMap.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="normalMappingInShadowMap.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="hdrShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="bloom.fs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="bloom.vs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="bloom_final.fs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="bloom_final.vs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="blur.fs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="blur.vs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="hdrShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="lightBloomer.fs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="testBright.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">

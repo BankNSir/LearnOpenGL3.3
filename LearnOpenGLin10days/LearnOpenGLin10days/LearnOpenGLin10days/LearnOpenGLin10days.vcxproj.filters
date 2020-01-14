@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GLSL Files">
+      <UniqueIdentifier>{c96962be-04b5-43dd-a66a-26bd2fa50714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="learnOpenGL">
+      <UniqueIdentifier>{a9e20a26-5331-48d1-b571-7492bb4c3348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLSL Files\bloom">
+      <UniqueIdentifier>{69814a79-48a6-4794-9c6a-3c97c0570fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLSL Files\gBuffers">
+      <UniqueIdentifier>{2226c308-ee32-42a7-8287-323b8ed97ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLSL Files\SSAO">
+      <UniqueIdentifier>{d8de100b-a95d-4082-aeb2-33e3ac4b9b61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyFirstOpenGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_scope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lampFragmentShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="lampVertexShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="singleColorShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="model_loading.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="model_loading.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="1.1.depth_testing.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="1.1.depth_testing.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="quadShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="skyboxShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="environmentaBox.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="environmentaBox.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="quadShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="skyboxShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapDepth.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapDepth.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapQuad.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapQuad.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="testscene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="testscene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapScene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="shadowmapScene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="geometryShader.gs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMapScene.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMap.gs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="pointLightShadowMapScene.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="normalMappingInShadowMap.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="normalMappingInShadowMap.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="hdrShader.vs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="bloom.fs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="bloom.vs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="bloom_final.fs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="bloom_final.vs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="blur.fs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="blur.vs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="hdrShader.fs">
+      <Filter>GLSL Files</Filter>
+    </None>
+    <None Include="lightBloomer.fs">
+      <Filter>GLSL Files\bloom</Filter>
+    </None>
+    <None Include="testBright.fs" />
+    <None Include="gBuffers.vs">
+      <Filter>GLSL Files\gBuffers</Filter>
+    </None>
+    <None Include="gBuffers.fs">
+      <Filter>GLSL Files\gBuffers</Filter>
+    </None>
+    <None Include="deferredLighting.vs">
+      <Filter>GLSL Files\gBuffers</Filter>
+    </None>
+    <None Include="deferredLighting.fs">
+      <Filter>GLSL Files\gBuffers</Filter>
+    </None>
+    <None Include="forwardRendering.fs">
+      <Filter>GLSL Files\gBuffers</Filter>
+    </None>
+    <None Include="forwardRendering.vs">
+      <Filter>GLSL Files\gBuffers</Filter>
+    </None>
+    <None Include="SSAOgBuffer.vs">
+      <Filter>GLSL Files\SSAO</Filter>
+    </None>
+    <None Include="SSAOgBuffer.fs">
+      <Filter>GLSL Files\SSAO</Filter>
+    </None>
+    <None Include="SSAOalgo.vs">
+      <Filter>GLSL Files\SSAO</Filter>
+    </None>
+    <None Include="SSAOalgo.fs">
+      <Filter>GLSL Files\SSAO</Filter>
+    </None>
+    <None Include="SSAOlighting.vs">
+      <Filter>GLSL Files\SSAO</Filter>
+    </None>
+    <None Include="SSAOlighting.fs">
+      <Filter>GLSL Files\SSAO</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
